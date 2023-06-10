@@ -1,0 +1,50 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register > form {
+  width: fit-content;
+  padding: 100px 0px;
+  display: flex;
+  /* gap: 120px; */
+}
+.registerTitle {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.registerWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.registerLabel {
+  color: gray;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.registerInput {
+  padding: 20px;
+  border: 1px solid rgb(216, 214, 214);
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  border: none;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #1dbf73;
+  cursor: pointer;
+  margin-top: 20px;
+}

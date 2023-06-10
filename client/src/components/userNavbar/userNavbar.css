@@ -1,0 +1,59 @@
+.userNavbar {
+  height: 60px;
+}
+
+.userNavbarWrapper {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userNavbarLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.language {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.userNavbarSearch {
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.userNavbarSearchInput {
+  border: none;
+}
+
+.userNavbarSearchInput:focus {
+  outline: none;
+}
+
+.userNavbarCenter {
+  flex: 1;
+  text-align: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.userNavbarRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbarRightItem {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}

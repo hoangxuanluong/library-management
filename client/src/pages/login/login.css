@@ -1,0 +1,48 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginTitle {
+  color: gray;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loginForm {
+  width: 360px;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loginForm > label {
+  color: gray;
+  font-size: 18px;
+}
+
+.loginInput {
+  padding: 20px;
+  border: 1px solid rgb(216, 214, 214);
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  border: none;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #1dbf73;
+  cursor: pointer;
+}
+
+form > span {
+  color: red;
+  font-size: 12px;
+}

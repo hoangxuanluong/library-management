@@ -1,0 +1,15 @@
+.products {
+  margin: 70px;
+}
+
+.productsTitle {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.productsList {
+  gap: 15px;
+  display: flex;
+  /* justify-content: space -between; */
+  flex-wrap: wrap;
+}

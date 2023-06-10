@@ -1,0 +1,59 @@
+.dashboardElement {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left {
+  margin-left: 10px;
+}
+
+.dashboardElementTitle {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+}
+.dashboardElementCount {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.dashboardElementLink {
+  width: max-content;
+  font-size: 12px;
+  border-bottom: 1px solid #00afb9;
+  color: #00afb9;
+  cursor: pointer;
+}
+
+.dashboardElementIcon {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+.orderIcon {
+  color: #03045e;
+}
+
+.foodIcon {
+  color: #fb5607;
+}
+
+.userIcon {
+  color: #d90429;
+}

@@ -1,0 +1,35 @@
+.categories {
+  margin: 70px;
+}
+
+.categoriesTitle {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.categoriesAll {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  /* gap: 10px; */
+}
+
+.category {
+  width: 120px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.categoryName {
+  font-size: 15px;
+  text-align: center;
+}
+
+.categoryImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
